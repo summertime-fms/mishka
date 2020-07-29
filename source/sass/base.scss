@@ -10,8 +10,10 @@ body {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+  font-family: "OpenSans", "Arial", sans-serif;
 
   font-style: normal;
+  color: #000000;
 }
 
 img {
@@ -27,8 +29,5 @@ button {
 
 a {
   text-decoration: none;
-}
-
-h1 {
-  color: green;
+  color: #000000;
 }

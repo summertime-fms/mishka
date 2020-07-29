@@ -7,6 +7,63 @@
   <title>Мишка</title>
 </head>
 <body>
-
+  <div style="display: none;">
+    <include src="build/img/sprite_auto.svg"></include>
+  </div>
+  <header class="page-header">
+    <nav class="page-header__nav">
+      <div class="page-header__container">
+        <a class="page-header__logo-wrapper" href="#" title="Мишка" aria-label="Мишка - милые штуки ручной работы для дома">
+          <picture>
+            <source media="(min-width:768px)" srcset="img/mishka-logo-tablet.svg">
+            <img class="page-header__logo" src="img/mishka-logo-mobile.svg" width="65" height="35">
+          </picture>
+        </a>
+        <button class="page-header__button page-header__button--close" type="button" aria-label="Показать/скрыть меню"> </button>
+      </div>
+      <ul class="page-header__list page-header__list--opened page-header__list--site-nav">
+        <li class="page-header__nav-item">
+          <a class="page-header__link" href="catalog.html">
+            Каталог товаров
+            </a>
+        </li>
+        <li class="page-header__nav-item">
+          <a class="page-header__link" href="form.html">
+            Вязание на заказ
+          </a>
+        </li>
+      </ul>
+      <ul class="page-header__list page-header__list--opened page-header__list--user-nav">
+        <li class="page-header__nav-item page-header__nav-item--search">
+          <a class="page-header__link page-header__link--search" href="#">
+            <svg class="page-header__icon" width="18" height="18">
+              <use xlink:href="#icon-search"></use>
+            </svg>
+            <span>Поиск по сайту</span>
+            </a>
+        </li>
+        <li class="page-header__nav-item">
+          <a class="page-header__link" href="#">
+            <svg class="page-header__icon" width="21" height="18">
+              <use xlink:href="#icon-basket"></use>
+            </svg>
+            Корзина: пока пуста
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <p class="page-header__offer-notion">Бесплатная доставка по России</p>
+  </header>
+  <main>
+    <section class="intro">
+      <h1 class="title intro__title">Милые штуки ручной работы для дома</h1>
+      <ul class="intro__categories">
+        <li class="intro__item">Предметы интерьера</li>
+        <li class="intro__item">Детские игрушки</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="page-footer"></footer>
+  <!-- <script src="js/script.js"></script> -->
 </body>
 </html>
